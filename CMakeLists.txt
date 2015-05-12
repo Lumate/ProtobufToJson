@@ -11,7 +11,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 SET(CMAKE_CXX_FLAGS "-std=c++11 -g -pthread ${CMAKE_CXX_FLAGS}")
 
 #boooooooost
-find_package(Boost 1.55 COMPONENTS thread system regex REQUIRED)
+#find_package(Boost 1.55 COMPONENTS thread system regex REQUIRED)
 
 #Protocol buffers
 find_package(Protobuf REQUIRED)
