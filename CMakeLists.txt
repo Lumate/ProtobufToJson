@@ -18,13 +18,11 @@ find_package(Protobuf REQUIRED)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 include_directories(${CMAKE_SOURCE_DIR})
-include_directories(fastjson/)
+include_directories(rapidjson/)
 
     
 set(protobuftojson_sources
     protobuftojson.cpp)
-
-add_subdirectory(fastjson)
 
 add_executable(protobuftojson ${protobuftojson_sources})
 
